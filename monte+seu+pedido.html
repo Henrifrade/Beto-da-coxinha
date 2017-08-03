@@ -4,12 +4,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/monte.css">
+  <link rel="shortcut icon" type="image/png" href="./images/logo16x16.png">
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <title>Beto da Coxinha - Monte seu pedido</title>
 </head>
 <body>
-  <header>
-    <!-- menu a ser add -->
-  </header>
+
+    <!-- script hamburguer menu -->
+
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <!-- Header -->
+
+    <header id="inicio" class="header-content">
+
+    <!-- Logo -->
+
+      <section class="logo">
+          <img src="./images/logo2.png" alt="Logo">
+          <h1>Beto da Coxinha</h1>
+      </section>
+
+    <!-- Header menu -->
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <a href="index.html">Inicio</a>
+        <a href="monte+seu+pedido.html">Monte seu pedido</a>
+        <a href="#ifood">iFood</a>
+        <a href="contato.html">Contato</a>
+      </div>
+
+      <section class="list-a">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Inicio</a>
+            </li>
+            <span></span>
+            <li>
+              <a href="monte+seu+pedido.html">Monte seu pedido</a>
+            </li>
+            <span></span>
+            <li>
+              <a href="index.html#ifood">iFood</a>
+            </li>
+            <span></span>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Social icons -->
+
+      <section class="social">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <span></span>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+      </section>
+
+      <section class="hamburguer">
+        <span style="color:#fff;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      </section>
+
+    </header>
+
 
   <main>
 

@@ -36,6 +36,8 @@ body {
 .logo img {
   width: 64px;
   height: 64px;
+  -webkit-transition: 0.3s ease-in;
+  -moz-transition: 0.3s ease-in;
 }
 .logo img:hover {
   -webkit-transform: rotate(8deg);
@@ -198,7 +200,7 @@ body {
   justify-content: center;
   flex-flow: column;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   background-color: #e8ca92;
   height: 100vh;
   grid-column: 1/4;
@@ -231,7 +233,7 @@ body {
 .options section {
   height: 250px;
   width: 300px;
-  margin: auto auto 10px auto;
+  margin: 10px auto 5px auto;
   border-radius: 10px;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
@@ -262,7 +264,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 60vw;
+  width: 55vw;
   height: 100vh;
 }
 .options-canvas a {
@@ -297,11 +299,12 @@ body {
 /* Footer */
 
 .footer-content {
+  color: #fff;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #e8ca92;
+  background-color: #991c1e;
   padding: 10px;
   grid-column: 1/4;
 }
@@ -336,7 +339,7 @@ body {
   }
 }
 /* iphone 5s */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
 
   .list-a {
     display: none;

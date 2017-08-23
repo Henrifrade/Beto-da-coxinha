@@ -268,7 +268,7 @@ input[type=text] {
 
 /* Media screen */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
 
   .list-a {
     display: none;
@@ -315,10 +315,22 @@ input[type=text] {
     align-items: center;
     flex-direction: column;
     order: 2;
+  }.main-options {
+    width: 43.5vw;
+    padding: 20px;
+    margin-bottom: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7af2a;
+    border-radius: 0px;
+    font-size: 0.8em;
   }
   .main-options {
-    padding: 10vw;
-    width: 57vw;
+    padding: 12%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 75%;
   }
   .main-opt-payment {
     margin-left: 0;

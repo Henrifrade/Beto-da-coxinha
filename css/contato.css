@@ -213,13 +213,12 @@ body {
 
   .main-content {
     background-color: #cf2127;
-    padding: 50px;
+    padding: 10px;
     display: grid;
-    grid-template-columns: [col] 1fr [col] 1fr [col] 1fr;
+    grid-template-columns: [col] 1fr [col] 1fr;
   }
   .main-box {
-    grid-column: col 2 / span 1;
-    grid-row: 1;
+    grid-column: col 1 / span 2;
     grid-template: none;
     display: flex;
     justify-content: center;
@@ -230,7 +229,11 @@ body {
   }
   .main-box h2, h3 {
     padding: 10px;
-    font-size: 1.3em;
+    font-size: 1.1em;
+  }
+
+  .form {
+    padding: 6px;
   }
 
   .title-find {

@@ -17,8 +17,8 @@ Visando expandir as vendas para outras regiões da grande João Pessoa, o site f
 
 ## Inspirações
 
-link 1: http://www.coxinhanobalde.com.br/
-link 2: http://www.socoxinhas.com/
+* link 1: http://www.coxinhanobalde.com.br/
+* link 2: http://www.socoxinhas.com/
 
 ## Prototipos
 

@@ -4,6 +4,8 @@
 
 # Beto da Coxinha
 
+![BC Logo](https://github.com/Henrifrade/Beto-da-coxinha/blob/master/screenshots/head.png)
+
 ## Descrição
 
 O site foi desenvolvido para solucionar a necessidade do marketing

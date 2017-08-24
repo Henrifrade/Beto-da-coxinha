@@ -13,10 +13,10 @@ na internet para a lanchonete <b>Beto da Coxinha</b>.
 
 Visando expandir as vendas para outras regiões da grande João Pessoa, o site foi elaborado para uma maior comodidade e facilidade no atendimento ao cliente sem a necessidade de falar diretamente com um atendente, gerando uma quantidade maior de pedidos simultâneos.
 
-## Inspiração
+## Inspirações
 
-http://www.coxinhanobalde.com.br/
-http://www.socoxinhas.com/
+link 1: http://www.coxinhanobalde.com.br/
+link 2: http://www.socoxinhas.com/
 
 ## Prototipos
 

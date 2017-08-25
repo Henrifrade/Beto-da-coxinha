@@ -11,6 +11,69 @@ body {
   margin: 0;
 }
 
+.loading {
+  position: fixed;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  animation: animate 5s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animate {
+  0% {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  100% {
+    margin-top: 0%;
+    width: 0%;
+  }
+}
+
+.loader {
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  background: url(https://henrifrade.github.io/Beto-da-coxinha/site/images/logo2.png) center;
+  background-size: contain;
+  animation: animatel 9s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animatel {
+  0% {
+    transform: rotate(360deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  98% {
+    transform: rotate(360deg);
+  }
+  99% {
+    width: 100px;
+    height: 100px;
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+  }
+}
+
 
 
 /* Header */
@@ -187,6 +250,7 @@ body {
   -moz-transition: 0.8s ease-in;
   -o-transition: 0.8s ease-in;
   animation-duration: 4s;
+  animation-delay: 10.5s;
   animation-name: slidedown;
 }
 @keyframes slidedown {
@@ -245,7 +309,9 @@ body {
 }
 .options section {
   height: 250px;
+  min-height: 200px;
   width: 300px;
+  min-width: 100px;
   -webkit-transition: 0.3s ease-in;
   -moz-transition: 0.3s ease-in;
   -o-transition: 0.3s ease-in;
@@ -362,7 +428,7 @@ body {
     height: 48%;
   }
 }
-/* iphone 5s */
+/* iphone 6 */
 @media screen and (max-width: 769px) {
 
   .list-a {

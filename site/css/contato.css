@@ -55,7 +55,7 @@ body {
   display: inline-flex;
   list-style: none;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 .list-a li:hover {
   background-color: #f7af2a;
@@ -151,13 +151,14 @@ body {
   padding: 5px;
 }
 .contacts-numbers {
+  color: #fff;
+  font-weight: bold;
   padding: 20px;
   text-align: center;
 }
 .form {
   padding: 20px;
   color: #fff;
-  background-color: #D76A20;
 }
 
 .title-find {
@@ -193,7 +194,7 @@ body {
   color: white;
 }
 
-/* Media screen */
+/* iphone 6 */
 @media screen and (max-width: 769px) {
 
   .list-a {

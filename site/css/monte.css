@@ -55,7 +55,7 @@ body {
   display: inline-flex;
   list-style: none;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 5px;
 }
 .list-a li:hover {
   background-color: #f7af2a;
@@ -236,9 +236,9 @@ body {
 }
 input[type=submit] {
   text-transform: uppercase;
-  background-color: #f7af2a;
+  background-color: #bf0000;
   color: #fff;
-  border-radius: 10px;
+  border-radius: 2px;
   width: 20em;
   height: 5em;
 }
@@ -266,7 +266,7 @@ input[type=text] {
   color: white;
 }
 
-/* Media screen */
+/* iphone 6 */
 
 @media screen and (max-width: 769px) {
 
@@ -315,7 +315,8 @@ input[type=text] {
     align-items: center;
     flex-direction: column;
     order: 2;
-  }.main-options {
+  }
+  .main-options {
     width: 43.5vw;
     padding: 20px;
     margin-bottom: 1.5em;
